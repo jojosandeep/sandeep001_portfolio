@@ -1,9 +1,8 @@
 import React from 'react';
 
 // Import your local images
-import portfolioImage from '../assets/images/portfolio.jpg';
-import ecommerceImage from '../assets/images/ecommerce.jpg';
-import weathers from '../assets/images/weather.jpg';
+import portfolioImage from '../assets/images/portfolio.png';
+import ecommerceImage from '../assets/images/ETS.png';
 import todolists from '../assets/images/todolists.jpg';
 
 const projectsData = [
@@ -11,29 +10,15 @@ const projectsData = [
     name: 'Portfolio Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
     image: portfolioImage,  // Using imported local image
-    link: 'https://prvishal001.netlify.app',
+    link: 'https://github.com/jojosandeep/sandeep001_portfolio.git',
     isDisabled: false, // This project is clickable
   },
   {
-    name: 'E-commerce Store',
-    description: 'A full-fledged e-commerce platform with a shopping cart and payment gateway integration.',
+    name: 'Expense Tracking System',
+    description: 'Designed a web-based Expense Tracking System for users to record, categorize, and monitor their expenses efficiently.',
     image: ecommerceImage,
     link: 'https://your-ecommerce-link.com',
     isDisabled: true,  // This project is not clickable
-  },
-  {
-    name: 'Weather App',
-    description: 'A weather forecasting app built with React and OpenWeather API, providing real-time weather updates and forecasts.',
-    image: weathers,
-    link: 'https://weathers001.netlify.app',
-    isDisabled: false, // This project is clickable
-  },
-  {
-    name: 'Todo List',
-    description: 'A simple todolist application used to add your todo tasks for further working on that .',
-    image: todolists,
-    link: 'https://todolists001.netlify.app',
-    isDisabled: false, // This project is clickable
   },
   // Add more projects here
 ];

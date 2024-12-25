@@ -10,18 +10,12 @@ const skillsData = [
       { name: 'CSS3', icon: <FaCss3Alt /> },
       { name: 'JavaScript', icon: <FaJs /> },
       { name: 'React', icon: <FaReact /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-      { name: 'Bootstrap', icon: <SiBootstrap /> },
     ],
   },
   {
     category: 'Backend',
     skills: [
-      { name: 'PHP', icon: <SiPhp /> },
-      { name: 'MySQL', icon: <SiMysql /> },
-      { name: 'Node.js', icon: <FaNodeJs /> },
-      { name: 'MongoDB', icon: <SiMongodb /> },
-      { name: 'Git', icon: <FaGitAlt /> },
+     
     ],
   },
   {

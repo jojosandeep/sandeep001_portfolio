@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header>
       <div className="header-container">
-        <h1 className="logo">Vishal Prajapati</h1>
+        <h1 className="Logo">Sandeep Prajapati</h1>
         <div className="menu-icon" onClick={toggleSidebar}>
           ☰
         </div>
